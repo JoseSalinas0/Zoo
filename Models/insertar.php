@@ -23,7 +23,7 @@ if($cp!=null||$c!=null||$des!=null){
         VALUES('".$ce."','".$cp."','".$nco."','".$nci."','".$fp."')";
         mysqli_query($con,$sql2);
         if($usuario=1){
-            header("location:index.php");
+            header("location:../Views/menu.php");
         }
     } else{
         $ni =$_POST['ni'];
@@ -37,7 +37,7 @@ if($cp!=null||$c!=null||$des!=null){
             VALUES('".$ni."','".$f."','".$z."','".$se."','".$an."','".$po."')";
             mysqli_query($con,$sql3);
             if($usuario=1){
-                header("location:index.php");
+                header("location:../Views/menu.php");
             }
         } else{
             $czoo=$_POST['czoo'];
@@ -50,7 +50,7 @@ if($cp!=null||$c!=null||$des!=null){
                 VALUES('".$czoo."','".$di."','".$nom."','".$tm."','".$ap."')";
                 mysqli_query($con,$sql4);
                 if($usuario=1){
-                    header("location:index.php");
+                    header("location:../Views/menu.php");
                 }
             } else {
                 $cd=$_POST['cd'];
@@ -61,7 +61,7 @@ if($cp!=null||$c!=null||$des!=null){
                     VALUES('".$cd."','".$ci."','".$p."')";
                     mysqli_query($con,$sql5);
                     if($usuario=1){
-                        header("location:index.php");
+                        header("location:../Views/menu.php");
                     }
                 }   else {
                     $nombre =$_POST['nombre'];
