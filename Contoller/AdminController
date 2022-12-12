@@ -1,0 +1,17 @@
+<?php
+
+use Models\Usuario;
+
+include "Models/conexion.php";
+
+class AdminController
+{
+
+    public function inicio()
+    {
+        require_once "Views/index.php";
+    }
+
+    
+
+}
