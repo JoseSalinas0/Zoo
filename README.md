@@ -1,1 +1,1 @@
-# Zoo
+# Pagina para administrar varios Zoo, Alumnos: Duran Ramos Fernando Antonio (1321124210), Gonzales Carapida Raul (1321124313), Salinas Reyes Jose Guadalupe (1321124147), George Sanchez Nora Isabel (1321124277), Vega Ojeda Alvaro Joshua (1321124271), Resendiz Molina Juan Pablo (1321124169), Carrera: Ingenieria en software, Grupo: 3422IS
